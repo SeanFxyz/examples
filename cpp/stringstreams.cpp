@@ -1,3 +1,10 @@
+/*
+ * Example usage of stringstreams by Sean Fitzgerald
+ * smf166@humboldt.edu
+ *
+ * This code is released into the public domain.
+ */
+
 #include <iostream>
 #include <string>
 #include <sstream> // string stream library
