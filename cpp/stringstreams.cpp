@@ -18,7 +18,7 @@ using namespace std;
 
 int main()
 {
-    // Create an ostringstream digits_sstream.
+    // Create an ostringstream digits_ostream.
     ostringstream digits_ostream;
 
     // Let's make a string listing all the digits.
