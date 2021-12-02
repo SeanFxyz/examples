@@ -1,6 +1,6 @@
 /*
  * Example usage of stringstreams by Sean Fitzgerald
- * smf166@humboldt.edu
+ * sean_m_fitzgerald@tutanota.com
  *
  * This code is released into the public domain.
  */
