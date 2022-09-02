@@ -28,7 +28,7 @@ int main()
         // Note: unlike using the `+` operator to concatenate strings, here
         // we can output many different data types using the `<<` operator,
         // just like `cout`.
-        // If `output` was a string, we'd have to convert i to a string
+        // If `digits_ostream` was a string, we'd have to convert i to a string
         // and concatenate it.
     }
 
@@ -38,7 +38,7 @@ int main()
 
 
 
-    // We can using an istringstream to read from a string just like like
+    // We can use an istringstream to read from a string just like like
     // we read from cin.
     cout << "Trying out istringstream..." << endl;
 
@@ -54,7 +54,7 @@ int main()
     int i = 0;
     while (word_istream.eof() == false)
     {
-        // By default, input streams read one word at a time.
+        // By default, all input streams (not just cin) read one word at a time.
         word_istream >> word_array[i]; // Reads one word into array position i
 
         cout << "Added word \"" << word_array[i] << "\" to array." << endl;
